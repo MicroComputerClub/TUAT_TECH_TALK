@@ -1,13 +1,12 @@
 $(function(){
-  $('#about-tab').click(
-    function(){
+  $('#about-tab').on('click', function(){
       $('#map-tab').removeClass("is-active");
       $('#about-tab').addClass("is-active");
-      $('#map').html("<h3 class=\"title is-2\"><span class=\"icon is-medium\"><i class=\"fa fa-pencil\"></i></span><strong>Lightning Talk</strong> (LT) ってなに？</h3><h4 /><h4 class=\"subtitle is-4\">LTとは，５分程度で行われるプレゼンテーションのことです．</h4><h1>　</h1><h1>　</h1><h1>　</h1><h3 class=\"title is-2\"><span class=\"icon is-medium\"><i class=\"fa fa-pencil\"></i></span>どんな話をするの？</h3><h4 /><h4 class=\"subtitle is-4\">技術系の話から好きな食べ物の話まで様々ですので，自分の興味のあるテーマを持ち込んで話してみましょう．</h4>");
+      $('#map').html("");
+      $('#about').html("<h3 class=\"title is-2\"><span class=\"icon is-medium\"><i class=\"fa fa-pencil\"></i></span> <strong>Lightning Talk</strong> (LT) ってなに？</h3><h4 /><h4 class=\"subtitle is-4\">LTとは，５分程度で行われるプレゼンテーションのことです．</h4><h1>　</h1><h1>　</h1><h1>　</h1><h3 class=\"title is-2\"><span class=\"icon is-medium\"><i class=\"fa fa-pencil\"></i></span> どんな話をするの？</h3><h4 /><h4 class=\"subtitle is-4\">技術系の話から好きな食べ物の話まで様々ですので，自分の興味のあるテーマを持ち込んで話してみましょう．</h4>");
     }
   );
-  $('#map-tab').click(
-    function(){
+  $('#map-tab').on('click', function(){
       $('#about-tab').removeClass("is-active");
       $('#map-tab').addClass("is-active");
       $('#about').html("");

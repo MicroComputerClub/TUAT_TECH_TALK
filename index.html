@@ -6,6 +6,8 @@
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="./css/bulma.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./js/tab.js"></script>
   </head>
   <body>
     <section class="hero is-fullheight is-info">
@@ -17,7 +19,6 @@
           </div>
         </div>
       </div>
-
       <div class="hero-body">
         <div class="container has-text-centered">
           <img class="logo1" src="./img/t3.svg" width="300" height="300">
@@ -27,45 +28,49 @@
           <h4 class="subtitle is-3">A Lightning Talk Event in Koganei Campus</h4>
         </div>
       </div>
-
-      <div class="hero-foot">
-        <div class="container">
-          <div class="tabs is-centered">
-            <ul>
-              <li>Copyright © TUAT MCC All Rights Reserved.</li>
-            </ul>
-          </div>
-        </div>
-      </div>
     </section>
-
     <section class="section is-medium">
-      <div class="container">
+      <div id="tabs" class="container">
         <div class="tabs is-boxed is-large">
           <ul>
-            <li class="is-active"><a>ABOUT</a></li>
+            <li id="about-tab" class="is-active"><a>ABOUT</a></li>
+            <li id="map-tab"><a>MAP</a></li>
           </ul>
         </div>
-        <h3 class="title is-2">
-          <span class="icon is-medium">
-            <i class="fa fa-pencil"></i>
-          </span>
-          <strong>Lightning Talk</strong> (LT) ってなに？
-        </h3>
-        <h4 />
-        <h4 class="subtitle is-4">LTとは，５分程度で行われるプレゼンテーションのことです．</h4>
-        <h1>　</h1>
-        <h1>　</h1>
-        <h1>　</h1>
-        <h3 class="title is-2">
-          <span class="icon is-medium">
-            <i class="fa fa-pencil"></i>
-          </span>
-          どんな話をするの？
-        </h3>
-        <h4 />
-        <h4 class="subtitle is-4">技術系の話から好きな食べ物の話まで様々です．</h4>
+        <div id="about">
+          <h3 class="title is-2">
+            <span class="icon is-medium">
+              <i class="fa fa-pencil"></i>
+            </span>
+            <strong>Lightning Talk</strong> (LT) ってなに？
+          </h3>
+          <h4 />
+          <h4 class="subtitle is-4">LTとは，５分程度で行われるプレゼンテーションのことです．</h4>
+          <h1>　</h1>
+          <h1>　</h1>
+          <h1>　</h1>
+          <h3 class="title is-2">
+            <span class="icon is-medium">
+              <i class="fa fa-pencil"></i>
+            </span>
+            どんな話をするの？
+          </h3>
+          <h4 />
+          <h4 class="subtitle is-4">技術系の話から好きな食べ物の話まで様々ですので，自分の興味のあるテーマを持ち込んで話してみましょう．</h4>
+        </div>
+        <div id="map">
+        </div>
       </div>
     </section>
+
+    <div class="hero-foot">
+      <div class="container">
+        <div class="tabs is-centered">
+          <ul>
+            <li>Copyright © TUAT MCC All Rights Reserved.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

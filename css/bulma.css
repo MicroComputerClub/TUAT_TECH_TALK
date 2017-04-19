@@ -2641,7 +2641,7 @@ input[type="submit"].button {
   margin-bottom: 1.5rem;
 }
 
-.subtitle:not(:last-child) {
+/*.subtitle:not(:last-child) {
   line-height: inherit;
   padding-bottom: 6rem;
 }
@@ -2649,7 +2649,7 @@ input[type="submit"].button {
 .subtitle:not(:last-child).is-not-last {
   line-height: inherit;
   padding-bottom: 0.25rem;
-}
+}*/
 
 .title em,
 .title span,
@@ -2720,6 +2720,7 @@ input[type="submit"].button {
   font-size: 1.25rem;
   font-weight: 300;
   line-height: 2rem;
+  padding-bottom: 6rem;
 }
 
 .subtitle strong {

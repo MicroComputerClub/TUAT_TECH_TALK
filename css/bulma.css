@@ -2633,11 +2633,22 @@ input[type="submit"].button {
 .title,
 .subtitle {
   word-break: break-word;
+  line-height: 2.5rem;
 }
 
-.title:not(:last-child),
-.subtitle:not(:last-child) {
+.title:not(:last-child) {
+  padding-bottom: 1.5rem;
   margin-bottom: 1.5rem;
+}
+
+.subtitle:not(:last-child) {
+  line-height: inherit;
+  padding-bottom: 6rem;
+}
+
+.subtitle:not(:last-child).is-not-last {
+  line-height: inherit;
+  padding-bottom: 0rem;
 }
 
 .title em,
@@ -2708,7 +2719,7 @@ input[type="submit"].button {
   color: #4a4a4a;
   font-size: 1.25rem;
   font-weight: 300;
-  line-height: 1.25;
+  line-height: 2.5rem;
 }
 
 .subtitle strong {
@@ -2744,7 +2755,7 @@ input[type="submit"].button {
 }
 
 .block:not(:last-child) {
-  margin-bottom: 1.5rem;
+  margin-bottom: 5rem;
 }
 
 .container {
@@ -4367,7 +4378,7 @@ label.panel-block:hover {
 }
 
 .tabs:not(:last-child) {
-  margin-bottom: 1.5rem;
+  margin-bottom: 5rem;
 }
 
 .tabs a {
@@ -6613,5 +6624,9 @@ label.panel-block:hover {
 
 .logo1 {
   padding-bottom: 2.5rem;
+}
+
+.embedded {
+  padding-bottom: 4rem;
 }
 /*# sourceMappingURL=bulma.css.map */

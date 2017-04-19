@@ -2648,7 +2648,7 @@ input[type="submit"].button {
 
 .subtitle:not(:last-child).is-not-last {
   line-height: inherit;
-  padding-bottom: 0rem;
+  padding-bottom: 0.25rem;
 }
 
 .title em,
@@ -2719,7 +2719,7 @@ input[type="submit"].button {
   color: #4a4a4a;
   font-size: 1.25rem;
   font-weight: 300;
-  line-height: 2.5rem;
+  line-height: 2rem;
 }
 
 .subtitle strong {

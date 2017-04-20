@@ -4396,7 +4396,8 @@ label.panel-block:hover {
 }
 
 .is-centering {
-  margin: auto;
+  padding-right: 5rem;
+  padding-left: 5rem;
   padding-bottom: 3rem;
   display: block;
 }

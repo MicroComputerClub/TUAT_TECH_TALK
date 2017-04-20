@@ -2651,6 +2651,11 @@ input[type="submit"].button {
   padding-bottom: 0.25rem;
 }*/
 
+.subtitle.is-last {
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+}
+
 .title em,
 .title span,
 .subtitle em,
@@ -2720,7 +2725,8 @@ input[type="submit"].button {
   font-size: 1.25rem;
   font-weight: 300;
   line-height: 2rem;
-  padding-bottom: 6rem;
+  padding-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
 .subtitle strong {
@@ -4380,6 +4386,19 @@ label.panel-block:hover {
 
 .tabs:not(:last-child) {
   margin-bottom: 5rem;
+}
+
+.tabs.is-centering {
+  padding-right: 5rem;
+  padding-left: 5rem;
+  margin-bottom: 3rem;
+  display: block;
+}
+
+.is-centering {
+  margin: auto;
+  padding-bottom: 3rem;
+  display: block;
 }
 
 .tabs a {
@@ -6629,5 +6648,13 @@ label.panel-block:hover {
 
 .embedded {
   padding-bottom: 4rem;
+}
+
+p.share {
+  font-size: 1.25rem;
+}
+
+span.is-icon {
+  padding-right: 5px
 }
 /*# sourceMappingURL=bulma.css.map */

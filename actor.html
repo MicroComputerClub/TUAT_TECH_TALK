@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script type="text/javascript" src="./js/tab.js"></script>
+    <script type="text/javascript" src="./js/scroll.js"></script>
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:creator" content="@tuatmcc">
     <meta name="twitter:title" content="TUAT TECH TALK">
@@ -48,53 +49,85 @@
         </div>
       </div>
     </section>
-    <section class="section is-medium">
+    <section id="main" class="section is-medium">
       <div id="tabs" class="container">
         <div class="tabs is-boxed is-large">
           <ul>
-            <li id="about-tab" class="is-active"><a><p class="a">A</p>BOUT</a></li>
+            <li id="about-tab"><a><p class="a">A</p>BOUT</a></li>
             <li id="access-tab"><a><p class="a">A</p>CCESS</a></li>
-            <li id="actor-tab"><a><p class="a">A</p>CTOR</a></li>
+            <li id="actor-tab" class="is-active"><a><p class="a">A</p>CTOR</a></li>
             <li id="attend-tab"><a><p class="a">A</p>TTEND</a></li>
           </ul>
         </div>
-        <div id="about">
+        <div id="access">
           <h3 class="title is-2">
             <span class="icon is-medium">
-              <i class="fa fa-pencil"></i>
+              <i class="fa fa-table"></i>
             </span>
-            <strong>Lightning Talk</strong> (LT) ってなに？
+            <strong>Actor Table</strong>
           </h3>
-          <h4 class="subtitle is-5">LTとは，５分程度で行われるプレゼンテーションのことです．<br>
-          <a class="link" href="https://ja.wikipedia.org/wiki/%E3%83%A9%E3%82%A4%E3%83%88%E3%83%8B%E3%83%B3%E3%82%B0%E3%83%88%E3%83%BC%E3%82%AF">What is LT?</a></h4>
+          <table class="table is-narrow">
+            <thead>
+              <tr>
+                <th>登壇者</th>
+                <th>発表内容</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>ぐらぽむ</td>
+                <td>鳥人間コンテストを見てきました</td>
+              </tr>
+              <tr>
+                <td>sasami</td>
+                <td>牛久大仏に行ってきた</td>
+              </tr>
+            </tbody>
+          </table>
+          <h3 class="title is-2">
+          </h3>
           <h3 class="title is-2">
             <span class="icon is-medium">
-              <i class="fa fa-pencil"></i>
+              <i class="fa fa-table"></i>
             </span>
-            どんな話をするの？
+            <strong>Time Table</strong>
           </h3>
-          <h4 class="subtitle is-5">技術系の話から好きな食べ物の話まで様々ですので，自分の興味のあるテーマを持ち込んで話してみましょう．</h4>
+          <table class="table is-bordered">
+            <thead>
+              <tr>
+                <th>時間</th>
+                <th>内容</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>16:30</td>
+                <td>オープニング</td>
+              </tr>
+              <tr>
+                <td>16:40</td>
+                <td>LT前半開始</td>
+              </tr>
+              <tr>
+                <td>18:00</td>
+                <td>休憩</td>
+              </tr>
+              <tr>
+                <td>18:10</td>
+                <td>LT後半開始</td>
+              </tr>
+              <tr>
+                <td>19:30</td>
+                <td>クロージング</td>
+              </tr>
+              <tr>
+                <td>20:00</td>
+                <td>完全撤退</td>
+              </tr>
+            </tbody>
+          </table>
           <h3 class="title is-2">
-            <span class="icon is-medium">
-              <i class="fa fa-pencil"></i>
-            </span>
-            どうしてはじまったの？
           </h3>
-          <h4 class="subtitle is-5">
-            こういったLTイベントは実は全国で開催されていますが，多くは誰でも参加OKのイベントとなっており，初参加者からすると少しハードルの高いものになっています．<br>
-            そこでまずは学内限定イベントから気軽に参加してもらうことで，こういったイベントになれるとともに，農工大生同士でいろいろな情報を共有し合おうという意図で始まったイベントです．
-          </h4>
-          <h3 class="title is-2">
-            <span class="icon is-medium">
-              <i class="fa fa-pencil"></i>
-            </span>
-            連絡先
-          </h3>
-          <h4 class="subtitle is-5 is-last">
-            要望や質問は以下までお願い致します。<br>
-            Twitter: <a href="https://twitter.com/gurapomu">gurapomu</a><br>
-            Email: gurapomu@gmail.com
-          </h4>
         </div>
       </div>
     </section>
